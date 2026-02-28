@@ -9,7 +9,6 @@ from sqlmodel import Field, SQLModel
 from app.models.item import ItemRecord  # noqa: F401
 from app.models.learner import Learner  # noqa: F401
 
-
 class InteractionLog(SQLModel, table=True):
     """An interaction log entry in the database."""
 
